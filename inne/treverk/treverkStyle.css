@@ -36,6 +36,15 @@ body {
             border-radius: 10px;
             margin-bottom: 20px;
         }
+        
+        .product-description {
+            font-size: 18px;
+            margin-top: 10px;
+            color: #333;
+            text-align: left;
+            padding: 0;
+            list-style-type: none;
+        }
 
         .finish-list, .brand-list {
             list-style: none;
