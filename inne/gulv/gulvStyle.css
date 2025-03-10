@@ -7,7 +7,7 @@ body {
         }
 
         .header-box {
-            background-color: #ff6600;
+            background-color: #ffe5b4;
             padding: 20px;
             border-radius: 15px;
             display: inline-block;
@@ -64,4 +64,8 @@ body {
             padding: 20px;
             border-radius: 15px;
             display: inline-block;
+        }
+        p {
+            font-size: 20px;
+            font-weight: bold;
         }

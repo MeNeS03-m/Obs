@@ -18,6 +18,9 @@ h1 {
     font-size: 40px;
     margin: 0;
 }
+.overskrift{
+    font-size: 30px;
+}
 
 .product-container {
     background-color: #d0e7ff;
