@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.message-box {
+    background-color: #ffe5b4;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+}
+
+h1 {
+    color: #003366;
+    font-size: 32px;
+    margin: 0;
+}
+
+.subtext {
+    font-size: 18px;
+    color: #444;
+    margin-top: 15px;
+}
