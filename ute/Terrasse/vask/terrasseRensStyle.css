@@ -5,14 +5,25 @@ body {
     padding: 30px 20px;
 }
 
-.message-box {
-    background-color: #ffe5b4;
-    padding: 30px;
+.message-box, .footer-box {
+    background-color: #ff9837;
+    padding: 20px;
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     max-width: 700px;
-    margin: auto;
+    margin: 20px auto;
     font-size: 22px;
+    font-weight: bold;
+}
+
+.info-box{
+    background-color: #ffe5b4;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 20px auto;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -26,7 +37,7 @@ body {
     gap: 20px;
     width: 90%;
     max-width: 900px;
-    margin: 30px auto;
+    margin: 20px auto;
 }
 
 .brand {
@@ -36,7 +47,6 @@ body {
     width: 280px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin-bottom: 20px;
 }
 
 .product-image {
