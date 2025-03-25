@@ -5,7 +5,7 @@ body {
     padding: 30px 20px;
 }
 
-.message-box, .footer-box {
+.message-box {
     background-color: #ff9837;
     padding: 20px;
     border-radius: 15px;
@@ -14,6 +14,17 @@ body {
     margin: 20px auto;
     font-size: 22px;
     font-weight: bold;
+}
+.footer-box{
+    background-color: #ff9837;
+    padding: 3px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 700px;
+    margin: 20px auto;
+    font-size: 16px;
+    font-weight: bold;
+
 }
 
 .info-box{
@@ -73,4 +84,87 @@ body {
 .product-info li {
     font-size: 14px;
     margin-bottom: 5px;
+}
+
+.back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+.back-button:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+.arrow {
+    background-color: #003366; /* Mørkeblå */
+    color: white;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border-radius: 50%; /* Gjør den rund */
+    margin-right: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.back-text {
+    color: #003366; /* Mørkeblå */
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.next-button {
+    display: block;
+    text-align: center;
+    background-color: #003366; 
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 90%;
+    max-width: 700px;
+    margin-bottom: 10px;
+    
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+.next-button:hover {
+    opacity: 0.8;
+    background-color: #003366;
+    color: white;
+    transform: scale(1.05);
+}
+.next-button1 {
+    display: block;
+    text-align: center;
+    background-color: #003366; 
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 30px;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+.next-button1:hover {
+    opacity: 0.8;
+    background-color: #003366;
+    color: white;
+    transform: scale(1.05);
 }

@@ -15,7 +15,7 @@ h1 {
     display: block;
     width: 80%;
     max-width: 350px;
-    background-color: #ff6600;
+    background-color: #FF8000;
     color: white;
     border: none;
     padding: 25px;
@@ -40,4 +40,38 @@ h1 {
     padding: 20px;
     border-radius: 15px;
     display: inline-block;
+}
+.back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+.back-button:hover {
+    opacity: 0.8;
+    transform: scale(1.05);
+}
+
+.arrow {
+    background-color: #003366; /* Mørkeblå */
+    color: white;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    border-radius: 50%; /* Gjør den rund */
+    margin-right: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.back-text {
+    color: #003366; /* Mørkeblå */
+    font-size: 20px;
+    font-weight: bold;
 }
