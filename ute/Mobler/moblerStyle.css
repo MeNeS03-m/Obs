@@ -16,58 +16,89 @@ body {
     font-weight: bold;
 }
 
-.info-container {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    max-width: 900px;
-    margin: 30px auto;
-    flex-wrap: wrap;
-}
-
-.info-box {
+.product-container {
     background-color: #d0e7ff;
     padding: 20px;
     border-radius: 15px;
-    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 90%;
+    max-width: 900px;
+    margin: 30px auto;
+}
+
+.brand {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 15px;
+    width: 280px;
     text-align: center;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-h2 {
-    font-size: 22px;
+.product-image {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product-name {
+    font-weight: bold;
+    font-size: 18px;
     color: #003366;
 }
 
-p {
-    font-size: 16px;
-    margin: 5px 0;
-    font-weight: bold;
+.product-info {
+    text-align: left;
+    padding: 0;
+    margin-top: 10px;
+    list-style-type: none;
 }
 
-.button-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.product-info li {
+    font-size: 14px;
+    margin-bottom: 5px;
 }
 
-button {
-    display: block;
-    width: 60%;
-    max-width: 350px;
-    background-color: #FF8000;
-    color: white;
-    border: none;
-    padding: 25px;
-    font-size: 24px;
-    margin: 10px auto;
-    cursor: pointer;
+.info-box {
+    background-color: #ffffff;
+    padding: 20px;
     border-radius: 15px;
-    transition: background-color 0.3s, transform 0.2s;
+    max-width: 700px;
+    margin: 30px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-button:hover {
-    background-color: #cc5500;
+.info-text {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #003366;
+}
+
+.next-button {
+    display: block;
+    text-align: center;
+    background-color: #FF8000; /* Knæsje oransje */
+    color: white;
+    font-size: 26px;
+    font-weight: bold;
+    padding: 20px;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 90%;
+    max-width: 700px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s ease, transform 0.2s ease;
+}
+
+.next-button:hover {
+    opacity: 0.8;
     transform: scale(1.05);
 }
 
