@@ -6,6 +6,7 @@ body {
 }
 
 .header-box {
+    margin-top: 35px;
     background-color: #ffe5b4;
     padding: 15px;
     border-radius: 10px;
