@@ -5,6 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Terrasse</title>
     <link rel="stylesheet" href="terrasseStyle.css">
+    <script>
+        let inactivityTime = function () {
+            let timer;
+        
+            function resetTimer() {
+                clearTimeout(timer);
+                timer = setTimeout(() => {
+                    window.location.href = "../../HomePage/index.html"; 
+                }, 20000);
+            }
+        
+            document.onload = resetTimer;
+            document.onmousemove = resetTimer;
+            document.onkeypress = resetTimer;
+            document.ontouchstart = resetTimer;
+            document.onclick = resetTimer;
+        };
+        
+        inactivityTime();
+        </script>
 </head>
 <body>
     <a href="javascript:history.back()" class="back-button">
